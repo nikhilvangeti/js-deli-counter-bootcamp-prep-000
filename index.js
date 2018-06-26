@@ -1,18 +1,17 @@
 var katzDeliLine = [];
 
 
-function takeANumber()
+function takeANumber(katzDeliLine, name)
 {
-  
+  katzDeliLine.push(name);
+}
+
+function nowServing(katzDeliLine)
+{
   
 }
 
-function nowServing()
-{
-  
-}
-
-function currentLine()
+function currentLine(katzDeliLine)
 {
   
 }
