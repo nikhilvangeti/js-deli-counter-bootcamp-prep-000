@@ -5,11 +5,13 @@ function takeANumber(katzDeliLine, name)
 {
   katzDeliLine.push(name);
   console.log(name + 'is' + katzDeliLine.length + 'in position');
+  return katzDeliLine.length;
 }
 
 function nowServing(katzDeliLine)
 {
-  
+  console.log('nowServing '+ katzDeliLine[0]);
+  return katzDeliLine[0];
 }
 
 function currentLine(katzDeliLine)
