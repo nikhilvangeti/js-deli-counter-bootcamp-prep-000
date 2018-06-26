@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine, name)
 
 function nowServing(katzDeliLine)
 {
-  if(katzDeliLine[0] == null)
+  if(katzDeliLine[0] === null)
   {
     return "There is nobody waiting to be served!";
   }
@@ -23,7 +23,10 @@ function nowServing(katzDeliLine)
 
 function currentLine(katzDeliLine)
 {
-  
+  if(katzDeliLine.length === 0)
+  {
+    return 'The line is currently empty'
+  }
 }
 takeANumber(katzDeliLine, "Ada"); // "Welcome, Ada. You are number 1 in line."
 takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line."
