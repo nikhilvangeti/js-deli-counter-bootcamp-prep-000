@@ -25,7 +25,15 @@ function currentLine(katzDeliLine)
 {
   if(katzDeliLine.length === 0)
   {
-    return 'The line is currently empty'
+    return 'The line is currently empty';
+  }
+  else
+  {
+    console.log("the line is currently:");
+    while( i <katzDeliLine.length)
+    {
+      
+    }
   }
 }
 takeANumber(katzDeliLine, "Ada"); // "Welcome, Ada. You are number 1 in line."
