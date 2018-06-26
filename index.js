@@ -4,7 +4,7 @@ var katzDeliLine = [];
 function takeANumber(katzDeliLine, name)
 {
   katzDeliLine.push(name);
-  return katzDeliLine.length;
+  console.log(name + 'is' + katzDeliLine.length + 'in position');
 }
 
 function nowServing(katzDeliLine)
