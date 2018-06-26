@@ -10,8 +10,15 @@ function takeANumber(katzDeliLine, name)
 
 function nowServing(katzDeliLine)
 {
+  if(katzDeliLine[0] == null)
+  {
+    return "There is nobody waiting to be served!";
+  }
+  else
+  {
   console.log('nowServing '+ katzDeliLine[0]);
   return katzDeliLine[0];
+  }
 }
 
 function currentLine(katzDeliLine)
